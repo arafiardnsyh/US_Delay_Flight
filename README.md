@@ -1,5 +1,5 @@
 # US_Delay_Flight
-This project involves analyzing airline delay data obtained from Kaggle to identify key insights and demonstrate skills in Python, SQL, Excel, and Tableau. The primary focus is on understanding the causes of delays and showcasing data cleaning, analysis, and visualization capabilities.
+This project involves analyzing airline delay data obtained from Kaggle to identify key insights and demonstrate skills in Python, Excel, and Tableau. The primary focus is on understanding the causes of delays and showcasing data cleaning, analysis, and visualization capabilities.
 
 Dataset Overview
 Source:
@@ -14,10 +14,6 @@ Exploratory Data Analysis (EDA):
   Visualizing key insights using Matplotlib and Seaborn.
   Exporting cleaned data for further use.
 
-SQL:
-  Aggregating and querying data to derive meaningful insights.
-  Example queries include delays by airport, carrier, and month.
-
 Excel:
   Summarizing and verifying data calculations.
 
@@ -27,9 +23,9 @@ Tableau:
 Key Steps
 
 1. Data Cleaning (Python)
-Handled missing values by filling with appropriate statistics (e.g., zeros for delays).
-Removed duplicate records.
-Converted columns to their correct data types (e.g., year and month to integers).
+  Handled missing values by filling with appropriate statistics (e.g., zeros for delays).
+  Removed duplicate records.
+  Converted columns to their correct data types (e.g., year and month to integers).
 
 2. Exploratory Data Analysis (Python)
   Total Flights vs. Delayed Flights:
@@ -44,14 +40,7 @@ Converted columns to their correct data types (e.g., year and month to integers)
 Delays by Month:
     Observed seasonal trends in delays.
 
-3. SQL Integration
-  Imported cleaned data into an SQLite database.
-  Example queries include:
-    Total delays by airport.
-    Average delay time by carrier.
-    Delay trends by month and year.
-
-4. Visualization (Tableau)
+3. Visualization (Tableau)
   Created dashboards to:
     Highlight delay causes.
     Display airline and airport performance.
@@ -86,16 +75,6 @@ How to Reproduce This Project
 Future Work
 Use machine learning to predict delays based on weather and airline data.
 Expand the analysis to include more datasets for international flights.
-Repository Structure
-airline-delay-analysis/
-├── data/
-│   ├── raw_data.csv            # Raw dataset
-│   ├── cleaned_data.csv        # Cleaned dataset
-├── notebooks/
-│   ├── Airline_Delay_Analysis.ipynb  # Google Colab notebook
-├── visualizations/
-│   ├── tableau_dashboard.twb   # Tableau dashboard file
-├── README.md                   # Project documentation
 
 License
 This project is for educational purposes. Please adhere to the data usage policies from Kaggle.
